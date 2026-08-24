@@ -1,0 +1,6 @@
+## TASK
+
+1. **Remove the Package Details / Pricing section** entirely from the site (e.g. "Premium Family – ₹10,500" etc.). The pricing table is currently unreadable/poorly formatted, and the client no longer wants package/pricing details shown at all. Remove the section itself, its nav/menu entry, and any internal links pointing to it (check the footer too) — don't just hide it with CSS, and don't leave a broken link or empty gap in the layout.
+3. **Fix mobile banner cropping** — on mobile/tablet the banner currently crops in a way that cuts off important parts of the image (the boat isn't fully visible, only a slice of the desktop crop shows). Fix the banner's responsive behavior — e.g. `object-fit`/`background-size` handling or an art-directed `<picture>` approach with different focal crops per breakpoint — so the full image composition stays visible and well-framed on mobile, tablet, and laptop.
+
+Test all three changes across mobile, tablet, and laptop/desktop breakpoints before considering this done.

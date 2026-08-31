@@ -9,9 +9,9 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <OptImg 
-            url="/images/optimised/002-1400w.webp" 
-            alt="Kerala Backwaters" 
+          <OptImg
+            url="/images/optimised/002-1400w.webp"
+            alt="Kerala Backwaters"
             className="w-full h-full object-cover"
             sizes="100vw"
             priority
@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="absolute inset-0 bg-stone-900/40" />
         </div>
         <div className="relative z-10 text-center text-white px-6">
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-[11px] uppercase tracking-[0.5em] mb-6 block font-medium text-gold-400"
@@ -27,7 +27,7 @@ const Contact = () => {
             Contact
           </motion.span>
           <h1 className="text-4xl md:text-6xl font-serif italic mb-4">
-            Get in <span className="not-italic font-bold">Touch</span>
+            Get  in <span className="not-italic font-bold">Touch</span>
           </h1>
         </div>
       </section>
@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
             <div>
-              <motion.span 
+              <motion.span
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="text-[11px] uppercase tracking-[0.5em] mb-6 block font-medium text-gold-600"
@@ -99,10 +99,10 @@ const Contact = () => {
                 <p className="text-stone-400 mb-12 font-light text-lg">
                   The fastest way to get a quote and check availability is through our dedicated WhatsApp concierge service.
                 </p>
-                <a 
+                <a
                   href="https://wa.me/919895123012"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                   className="bg-gold-500 text-stone-900 px-12 py-5 rounded-full font-bold hover:bg-gold-400 transition-all text-center flex items-center justify-center gap-4 text-xs uppercase tracking-[0.3em]"
                 >
                   Connect Now <WhatsAppIcon size={20} />
@@ -119,7 +119,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="absolute -bottom-10 -right-10 w-full h-full border border-gold-200 rounded-3xl -z-0 hidden lg:block" />
             </div>
           </div>

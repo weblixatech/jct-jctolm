@@ -14,7 +14,7 @@ export function getOptimisedPaths(url) {
       src1400: '',
       src1800: '',
       srcSet: '',
-      fallback: '',
+      fallback: ''
     };
   }
 
